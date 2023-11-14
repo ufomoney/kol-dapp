@@ -41,7 +41,7 @@ body {
 
 .main__btn::before {
   transition: 0.5s;
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
   top: 0;
@@ -98,6 +98,13 @@ body {
   text-align: center;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
 .label_name {
   position: absolute;
   bottom: 0;
@@ -112,7 +119,7 @@ body {
 }
 
 .label_name::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -188,12 +195,26 @@ body {
 }
 
 .instruction_list > li:last-child {
-  list-style-type: '*  ';
+  list-style-type: "*  ";
 }
 
 .mint_form {
   display: flex;
   align-items: center;
+}
+
+.converted {
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-flow: 4px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 @media screen and (max-width: 500px) {
