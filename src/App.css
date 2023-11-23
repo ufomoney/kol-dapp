@@ -198,7 +198,7 @@ input::-webkit-inner-spin-button {
   list-style-type: "*  ";
 }
 
-.mint_form {
+.main_form {
   display: flex;
   align-items: center;
 }
@@ -238,7 +238,7 @@ input::-webkit-inner-spin-button {
     top: 0;
     position: unset;
   }
-  .mint_form {
+  .main_form {
     flex-direction: column;
   }
 }
