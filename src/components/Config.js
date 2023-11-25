@@ -1,5 +1,5 @@
 export const Config = {
-  chainId: 56,
+  chainId: 11155111,
   contractAddress: "0xB257F2D9b0e007215885C2214fD3e8343031b8EE",
   contractAbi: [
     { inputs: [], stateMutability: "nonpayable", type: "constructor" },
@@ -249,7 +249,7 @@ export const Config = {
     { stateMutability: "payable", type: "receive" },
   ],
   providerUri: "https://bsc-dataseed.binance.org",
-  contractAddress2: "0x0a11f9b9b6be7a2632b0229b83e99cacee9c0c9b",
+  contractAddress2: "0x1c7DdbaD0D8DB32D44169D6e05a8D681936D683F",
   contractAbi2: [
     {
       inputs: [
