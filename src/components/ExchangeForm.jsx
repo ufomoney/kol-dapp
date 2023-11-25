@@ -22,7 +22,7 @@ export default function ExchangeForm({ contract, address }) {
       if (tokenNumber === 0) return;
 
       const ct = await contract.approve(
-        "0x60f9158986f46dB13eB6cfB9Df4497df6a6b8A6F",
+        "0x0a11f9b9b6be7a2632b0229b83e99cacee9c0c9b",
         tokenNumber * 10 ** 8
       );
       await ct.wait();
