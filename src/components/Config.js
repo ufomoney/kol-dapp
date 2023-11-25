@@ -249,7 +249,7 @@ export const Config = {
     { stateMutability: "payable", type: "receive" },
   ],
   providerUri: "https://bsc-dataseed.binance.org",
-  contractAddress2: "0x95848769b1B302f89E9F141Dc84007Ab1D8736Bc",
+  contractAddress2: "0x60f9158986f46dB13eB6cfB9Df4497df6a6b8A6F",
   contractAbi2: [
     {
       inputs: [
