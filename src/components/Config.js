@@ -1,6 +1,6 @@
 export const Config = {
-  chainId: 56,
-  contractAddress: "0xB257F2D9b0e007215885C2214fD3e8343031b8EE",
+  chainId: 11155111,
+  contractAddress: "0xAC25D2ab780EFb6Fea22642615ffB7584591D4d6",
   contractAbi: [
     { inputs: [], stateMutability: "nonpayable", type: "constructor" },
     {
