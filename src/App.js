@@ -15,7 +15,7 @@ const projectId = "fbe54accfbd4f43f27590dbd654c2a4f";
 
 // 2. Set chains
 const mainnet = {
-  chainId: 1,
+  chainId: 11155111,
   name: "Ethereum",
   currency: "ETH",
   explorerUrl: "https://sepolia.etherscan.io",
@@ -42,10 +42,6 @@ export default function App() {
   const { signer } = useWeb3ModalSigner();
 
   async function connect() {
-    if (chainId !== 11155111) {
-      alert("Not bsc, please change chain id");
-      return;
-    }
 
     const newContract = new ethers.Contract(
       Config.contractAddress,
