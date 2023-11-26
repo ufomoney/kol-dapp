@@ -248,7 +248,7 @@ export const Config = {
     },
     { stateMutability: "payable", type: "receive" },
   ],
-  providerUri: "wss://ethereum.publicnode.com	",
+  providerUri: "https://eth.llamarpc.com",
   contractAddress2: "0x932edc66d15c3ff9d5c4677303aed6ce915b71fc",
   contractAbi2: [
     {
