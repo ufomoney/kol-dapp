@@ -8,7 +8,7 @@ const coefficient = 1.3;
 export default function ExchangeForm({ contract, address }) {
   const [tokenNumber, setTokenNumber] = useState(0);
   const tokenAmountRef = useRef(tokenNumber);
-  const [isApproved, setIsApproved] = useState(false);
+  const [isApproved, setIsApproved] = useState(true);
   const { signer } = useWeb3ModalSigner();
   function convertedNumber() {
     return tokenNumber * coefficient;
