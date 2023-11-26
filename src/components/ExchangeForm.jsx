@@ -43,7 +43,8 @@ export default function ExchangeForm({ contract, address }) {
       const answer = await newContract.swapTokens(tokenNumber * 10 ** 8);
       await answer.wait();
       setIsApproved(false);
-    // } catch (error) {
+    } 
+    //   catch (error) {
     //   console.error("Error when swapping");
     // }
   };
