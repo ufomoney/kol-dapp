@@ -249,7 +249,7 @@ export const Config = {
     { stateMutability: "payable", type: "receive" },
   ],
   providerUri: "https://eth.llamarpc.com",
-  contractAddress2: "0x932edc66d15c3ff9d5c4677303aed6ce915b71fc",
+  contractAddress2: "0x932EDc66d15c3Ff9D5C4677303aED6ce915B71fc",
   contractAbi2: [
     {
       inputs: [
