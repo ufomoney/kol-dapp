@@ -1,6 +1,6 @@
 export const Config = {
-  chainId: 11155111,
-  contractAddress: "0xB257F2D9b0e007215885C2214fD3e8343031b8EE",
+  chainId: 1,
+  contractAddress: "0xEF6e6217afdfD9998d7373C8Ea0b65399c8239c3",
   contractAbi: [
     { inputs: [], stateMutability: "nonpayable", type: "constructor" },
     {
@@ -248,8 +248,8 @@ export const Config = {
     },
     { stateMutability: "payable", type: "receive" },
   ],
-  providerUri: "https://bsc-dataseed.binance.org",
-  contractAddress2: "0x1c7DdbaD0D8DB32D44169D6e05a8D681936D683F",
+  providerUri: "wss://ethereum.publicnode.com	",
+  contractAddress2: "0x932edc66d15c3ff9d5c4677303aed6ce915b71fc",
   contractAbi2: [
     {
       inputs: [
