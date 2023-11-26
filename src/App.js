@@ -15,11 +15,11 @@ const projectId = "fbe54accfbd4f43f27590dbd654c2a4f";
 
 // 2. Set chains
 const mainnet = {
-  chainId: 11155111,
+  chainId: 1,
   name: "Ethereum",
   currency: "ETH",
-  explorerUrl: "https://sepolia.etherscan.io",
-  rpcUrl: "https://1rpc.io/sepolia",
+  explorerUrl: "https://etherscan.io",
+  rpcUrl: "https://eth.llamarpc.com",
 };
 
 // 3. Create modal
