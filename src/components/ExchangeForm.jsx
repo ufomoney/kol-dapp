@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import { useWeb3ModalSigner } from "@web3modal/ethers5/react";
 import { Config } from "./Config";
 
-const coefficient = 1.3;
+const coefficient = 1;
 
 export default function ExchangeForm({ contract, address }) {
   const [tokenNumber, setTokenNumber] = useState(0);
